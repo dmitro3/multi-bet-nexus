@@ -1,7 +1,42 @@
+# Ignore trash files
 trash.*
+
+# macOS system files
 .DS_Store
-node_modules
-dist
-dev-dist
+
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+dev-dist/
+
+# Environment variables
 .env
+
+# Package lock files
 package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build artifacts
+*.tgz
+*.zip
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
